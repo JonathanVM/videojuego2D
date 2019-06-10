@@ -55,7 +55,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-15</string>
+            <string>-10</string>
           </argument>
         </arguments>
       </action>
@@ -79,7 +79,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-90</string>
+            <string>-100</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -227,7 +227,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>15</string>
+            <string>10</string>
           </argument>
         </arguments>
       </action>
@@ -251,7 +251,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>90</string>
+            <string>100</string>
           </argument>
           <argument>
             <kind>4</kind>

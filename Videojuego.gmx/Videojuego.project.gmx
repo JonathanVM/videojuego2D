@@ -29,6 +29,7 @@
       <sprite>sprites\spr_anchor_chain_anchor</sprite>
       <sprite>sprites\spr_shark</sprite>
       <sprite>sprites\spr_base_chain</sprite>
+      <sprite>sprites\spr_seaweed</sprite>
     </sprites>
     <sprite>sprites\mascara</sprite>
   </sprites>
@@ -54,10 +55,11 @@
     <object>objects\obj_invisible_wall</object>
     <object>objects\obj_shark</object>
     <object>objects\obj_base_chain</object>
+    <object>objects\obj_seaweed</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
     <room>rooms\room1</room>
+    <room>rooms\room0</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -21,6 +21,7 @@
       <sprite>sprites\spr_coin</sprite>
       <sprite>sprites\spr_invisible_wall</sprite>
       <sprite>sprites\sprite15</sprite>
+      <sprite>sprites\spr_base_chain</sprite>
     </sprites>
     <sprites name="enemies">
       <sprite>sprites\spr_chain_ball</sprite>
@@ -52,6 +53,7 @@
     <object>objects\obj_invisible_wall</object>
     <object>objects\obj_ball_chain_ball</object>
     <object>objects\obj_shark</object>
+    <object>objects\obj_base_chain</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

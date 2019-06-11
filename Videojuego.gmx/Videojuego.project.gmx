@@ -21,14 +21,14 @@
       <sprite>sprites\spr_coin</sprite>
       <sprite>sprites\spr_invisible_wall</sprite>
       <sprite>sprites\sprite15</sprite>
-      <sprite>sprites\spr_base_chain</sprite>
     </sprites>
     <sprites name="enemies">
-      <sprite>sprites\spr_chain_ball</sprite>
+      <sprite>sprites\spr_chain_anchor</sprite>
       <sprite>sprites\spr_jellyfish</sprite>
       <sprite>sprites\spr_jellyfish_bullet</sprite>
-      <sprite>sprites\spr_ball_chain_ball</sprite>
+      <sprite>sprites\spr_anchor_chain_anchor</sprite>
       <sprite>sprites\spr_shark</sprite>
+      <sprite>sprites\spr_base_chain</sprite>
     </sprites>
     <sprite>sprites\mascara</sprite>
   </sprites>
@@ -45,19 +45,19 @@
     <object>objects\obj_player_walk</object>
     <object>objects\obj_jellyfish</object>
     <object>objects\obj_jellyfish_bullet</object>
-    <object>objects\obj_chain_ball</object>
+    <object>objects\obj_chain_anchor</object>
+    <object>objects\obj_anchor_chain_anchor</object>
     <object>objects\obj_coin</object>
     <object>objects\obj_floor</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_sea_lose</object>
     <object>objects\obj_invisible_wall</object>
-    <object>objects\obj_ball_chain_ball</object>
     <object>objects\obj_shark</object>
     <object>objects\obj_base_chain</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1</room>
     <room>rooms\room0</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -24,6 +24,11 @@
       <sprite>sprites\spr_sail_boat</sprite>
       <sprite>sprites\spr_base_boat</sprite>
       <sprite>sprites\spr_flag</sprite>
+      <sprite>sprites\spr_starfish</sprite>
+      <sprite>sprites\spr_fish</sprite>
+      <sprite>sprites\spr_grass</sprite>
+      <sprite>sprites\spr_coral</sprite>
+      <sprite>sprites\spr_piranha</sprite>
     </sprites>
     <sprites name="enemies">
       <sprite>sprites\spr_chain_anchor</sprite>
@@ -33,6 +38,7 @@
       <sprite>sprites\spr_shark</sprite>
       <sprite>sprites\spr_base_chain</sprite>
       <sprite>sprites\spr_seaweed</sprite>
+      <sprite>sprites\spr_jellyfish_hard</sprite>
     </sprites>
     <sprite>sprites\mascara</sprite>
   </sprites>
@@ -40,7 +46,9 @@
     <background>background\background0</background>
     <background>background\background1</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path_jellyfish</path>
+  </paths>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
   </shaders>
@@ -48,7 +56,6 @@
     <object>objects\obj_player_ship</object>
     <object>objects\obj_player_walk</object>
     <object>objects\obj_coin</object>
-    <object>objects\obj_shark</object>
     <objects name="enemies">
       <object>objects\obj_seaweed</object>
       <object>objects\obj_jellyfish_bullet</object>
@@ -56,6 +63,9 @@
       <object>objects\obj_chain_anchor</object>
       <object>objects\obj_anchor_chain_anchor</object>
       <object>objects\obj_jellyfish</object>
+      <object>objects\obj_shark</object>
+      <object>objects\obj_piranha</object>
+      <object>objects\obj_jellyfish_hard</object>
     </objects>
     <objects name="components">
       <object>objects\obj_floor</object>
@@ -65,11 +75,16 @@
       <object>objects\obj_sail_boat</object>
       <object>objects\obj_invisible_wall</object>
       <object>objects\ob_flag</object>
+      <object>objects\obj_starfish</object>
+      <object>objects\obj_grass</object>
+      <object>objects\obj_coral</object>
+      <object>objects\obj_fish</object>
     </objects>
+    <object>objects\obj_score</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
     <room>rooms\room1</room>
+    <room>rooms\room0</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

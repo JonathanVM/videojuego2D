@@ -383,22 +383,6 @@ if !keyboard_check(vk_left) and !keyboard_check(vk_right) {image_speed = 0; imag
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_anchor_chain_anchor">
-      <action>
-        <libid>1</libid>
-        <id>223</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_current_room</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-    </event>
     <event eventtype="4" ename="obj_sea_lose">
       <action>
         <libid>1</libid>
@@ -515,7 +499,7 @@ if !keyboard_check(vk_left) and !keyboard_check(vk_right) {image_speed = 0; imag
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_chain_anchor">
+    <event eventtype="4" ename="obj_jellyfish">
       <action>
         <libid>1</libid>
         <id>223</id>
@@ -531,7 +515,23 @@ if !keyboard_check(vk_left) and !keyboard_check(vk_right) {image_speed = 0; imag
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_jellyfish">
+    <event eventtype="4" ename="obj_anchor_chain_anchor">
+      <action>
+        <libid>1</libid>
+        <id>223</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_current_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_chain_anchor">
       <action>
         <libid>1</libid>
         <id>223</id>

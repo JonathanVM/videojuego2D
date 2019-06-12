@@ -21,6 +21,8 @@
       <sprite>sprites\spr_coin</sprite>
       <sprite>sprites\spr_invisible_wall</sprite>
       <sprite>sprites\sprite15</sprite>
+      <sprite>sprites\spr_sail_boat</sprite>
+      <sprite>sprites\spr_base_boat</sprite>
     </sprites>
     <sprites name="enemies">
       <sprite>sprites\spr_chain_anchor</sprite>
@@ -44,22 +46,28 @@
   <objects name="objects">
     <object>objects\obj_player_ship</object>
     <object>objects\obj_player_walk</object>
-    <object>objects\obj_jellyfish</object>
-    <object>objects\obj_jellyfish_bullet</object>
-    <object>objects\obj_chain_anchor</object>
-    <object>objects\obj_anchor_chain_anchor</object>
     <object>objects\obj_coin</object>
-    <object>objects\obj_floor</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_sea_lose</object>
-    <object>objects\obj_invisible_wall</object>
     <object>objects\obj_shark</object>
-    <object>objects\obj_base_chain</object>
-    <object>objects\obj_seaweed</object>
+    <objects name="enemies">
+      <object>objects\obj_seaweed</object>
+      <object>objects\obj_jellyfish_bullet</object>
+      <object>objects\obj_base_chain</object>
+      <object>objects\obj_chain_anchor</object>
+      <object>objects\obj_anchor_chain_anchor</object>
+      <object>objects\obj_jellyfish</object>
+    </objects>
+    <objects name="components">
+      <object>objects\obj_floor</object>
+      <object>objects\obj_wall</object>
+      <object>objects\obj_sea_lose</object>
+      <object>objects\obj_base_boat</object>
+      <object>objects\obj_sail_boat</object>
+      <object>objects\obj_invisible_wall</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1</room>
     <room>rooms\room0</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

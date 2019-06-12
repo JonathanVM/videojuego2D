@@ -23,6 +23,7 @@
       <sprite>sprites\sprite15</sprite>
       <sprite>sprites\spr_sail_boat</sprite>
       <sprite>sprites\spr_base_boat</sprite>
+      <sprite>sprites\spr_flag</sprite>
     </sprites>
     <sprites name="enemies">
       <sprite>sprites\spr_chain_anchor</sprite>
@@ -63,6 +64,7 @@
       <object>objects\obj_base_boat</object>
       <object>objects\obj_sail_boat</object>
       <object>objects\obj_invisible_wall</object>
+      <object>objects\ob_flag</object>
     </objects>
   </objects>
   <rooms name="rooms">

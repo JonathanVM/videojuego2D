@@ -269,6 +269,7 @@
     <instance objName="obj_coin" x="3296" y="264" name="inst_0214B3F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coin" x="200" y="568" name="inst_267123F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coin" x="600" y="248" name="inst_FC5E9A1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="664" y="248" name="inst_0A495103" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_jellyfish" x="206" y="643" name="inst_742259E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="688" y="688" name="inst_5403FFF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="656" y="688" name="inst_BE8AD52C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

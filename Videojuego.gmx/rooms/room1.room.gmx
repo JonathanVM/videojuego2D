@@ -502,6 +502,7 @@
     <instance objName="obj_jellyfish" x="1344" y="640" name="inst_511EAE3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_anchor_chain_anchor" x="1648" y="191" name="inst_05047F7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_jellyfish" x="1424" y="352" name="inst_66D021FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shark" x="800" y="456" name="inst_7C1304C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_base_chain" x="1648" y="464" name="inst_8A83DFDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_base_chain" x="1648" y="191" name="inst_D6884718" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

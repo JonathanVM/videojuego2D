@@ -29,6 +29,9 @@
       <sprite>sprites\spr_grass</sprite>
       <sprite>sprites\spr_coral</sprite>
       <sprite>sprites\spr_piranha</sprite>
+      <sprite>sprites\spr_victory</sprite>
+      <sprite>sprites\spr_label_level</sprite>
+      <sprite>sprites\spr_gameover</sprite>
     </sprites>
     <sprites name="enemies">
       <sprite>sprites\spr_chain_anchor</sprite>
@@ -81,6 +84,7 @@
       <object>objects\obj_fish</object>
     </objects>
     <object>objects\obj_score</object>
+    <object>objects\obj_reset</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>

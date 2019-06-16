@@ -398,6 +398,7 @@
     <instance objName="obj_sea_lose" x="3792" y="688" name="inst_309C5675" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_jellyfish" x="192" y="630" name="inst_8C6E4956" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_walk" x="32" y="625" name="inst_D036D6B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_score" x="64" y="474" name="inst_3F0709EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_base_chain" x="640" y="254" name="inst_9724C9BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_base_chain" x="960" y="462" name="inst_841283E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_base_chain" x="1120" y="478" name="inst_9F7588BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

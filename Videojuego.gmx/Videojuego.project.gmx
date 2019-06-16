@@ -83,6 +83,7 @@
       <object>objects\obj_grass</object>
       <object>objects\obj_coral</object>
       <object>objects\obj_fish</object>
+      <object>objects\obj_label_lavel</object>
     </objects>
     <object>objects\obj_score</object>
     <object>objects\obj_reset</object>

@@ -281,11 +281,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>336</string>
+            <string>view_xview[0]+view_wview[0]/2</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>280</string>
+            <string>view_yview[0]+view_hview[0]/2</string>
           </argument>
         </arguments>
       </action>
@@ -575,11 +575,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_xview[0] + 100</string>
+            <string>view_xview[0]+view_wview[0]/2</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>280</string>
+            <string>view_yview[0]+view_hview[0]/2</string>
           </argument>
         </arguments>
       </action>

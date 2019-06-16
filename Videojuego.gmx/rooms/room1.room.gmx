@@ -637,10 +637,10 @@
     <instance objName="obj_wall_roof" x="3936" y="48" name="inst_A0F2972A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_roof" x="3968" y="48" name="inst_001C6318" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_roof" x="3984" y="48" name="inst_27420657" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall_roof" x="1984" y="304" name="inst_7477B98E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall_roof" x="1760" y="144" name="inst_D9F09DF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall_roof" x="1536" y="544" name="inst_DB03A341" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall_roof" x="1312" y="80" name="inst_6F84D15F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="1312" y="80" name="inst_39D304A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="1536" y="544" name="inst_A4381451" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="1760" y="144" name="inst_5F6D4E67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="1984" y="304" name="inst_19C9A7C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_ship" x="96" y="624" name="inst_457A6690" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="1568" y="688" name="inst_2DD6137B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="1600" y="688" name="inst_7F86DA91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

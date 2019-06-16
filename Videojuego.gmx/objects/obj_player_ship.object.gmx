@@ -110,6 +110,28 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_wall_roof">
+      <action>
+        <libid>1</libid>
+        <id>104</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_vspeed</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_flag">
       <action>
         <libid>1</libid>
@@ -167,37 +189,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//player = point_direction (obj_wall.x, obj_wall.y, obj_player_ship.x, obj_player_ship.y);
-
-//superior
-if x &gt;= 1279 and x &lt;= 1337 and y &gt;= 96 and y &lt;= 152{
-    move_contact_solid(270,12);
-    vspeed=0;
-}else if y &lt;=80{
+            <string>if (x &gt;= 1279 and x &lt;= 1337 and y &gt;= 96 and y &lt;=152) or (x &gt;= 1503 and x &lt;= 1561 and y &gt;= 560 and y &lt;=616) or 
+        (x &gt;= 1727 and x &lt;= 1785 and y &gt;= 160 and y &lt;=216) or (x &gt;= 1951 and x &lt;= 2009 and y &gt;= 320 and y &lt;=392){
     move_contact_solid(270,12);
     vspeed=0;
 }else{
     hspeed=0;
 }
-
-//inferior
-/*
-if player &gt;225 and player &lt;315{
-    move_contact_solid(270,12);
-    vspeed=0;
-}*/
-
-//derecha
-/*
-if player &lt;45 or player &gt;315{
-    hspeed=0;
-}*/
-
-//izquierda
-/*
-if player &gt;135 and player &lt;225{
-    hspeed=0;
-}*/
 </string>
           </argument>
         </arguments>

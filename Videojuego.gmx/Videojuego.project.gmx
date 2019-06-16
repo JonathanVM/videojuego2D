@@ -84,6 +84,7 @@
       <object>objects\obj_coral</object>
       <object>objects\obj_fish</object>
       <object>objects\obj_label_lavel</object>
+      <object>objects\obj_wall_roof</object>
     </objects>
     <object>objects\obj_score</object>
     <object>objects\obj_reset</object>

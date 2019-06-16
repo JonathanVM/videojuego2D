@@ -11,6 +11,54 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.inicialx</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>self.x</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.inicialy</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>self.y</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>541</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -939,80 +987,6 @@ image_index = 0;
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="9" enumb="39">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if place_free(x, y+1){
-    if sprite_index == spr_player_walk_right
-        sprite_index = spr_player_jump_right;
-    
-    if sprite_index == spr_player_walk_left
-        sprite_index = spr_player_jump_left;
-} 
-else {
-    if sprite_index == spr_player_jump_right
-        sprite_index = spr_player_walk_right;
-
-    if sprite_index == spr_player_jump_left
-        sprite_index = spr_player_walk_left;
-    
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="9" enumb="37">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if place_free(x, y+1){
-    if sprite_index == spr_player_walk_right
-        sprite_index = spr_player_jump_right;
-    
-    if sprite_index == spr_player_walk_left
-        sprite_index = spr_player_jump_left;
-} 
-else {
-    if sprite_index == spr_player_jump_right
-        sprite_index = spr_player_walk_right;
-
-    if sprite_index == spr_player_jump_left
-        sprite_index = spr_player_walk_left;
-    
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="9" enumb="32">
       <action>
         <libid>1</libid>
@@ -1055,31 +1029,6 @@ else {
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if(sprite_index == spr_player_walk_right){
-    sprite_index = spr_player_jump_right;
-} else {
-    sprite_index = spr_player_jump_left;
-}
-</string>
-          </argument>
-        </arguments>
       </action>
       <action>
         <libid>1</libid>

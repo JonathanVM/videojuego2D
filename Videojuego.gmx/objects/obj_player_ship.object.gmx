@@ -170,7 +170,7 @@
             <string>//player = point_direction (obj_wall.x, obj_wall.y, obj_player_ship.x, obj_player_ship.y);
 
 //superior
-if x &gt;= 1288 and x &lt;= 1352 and y &gt;= 96 and y &lt;= 152{
+if x &gt;= 1279 and x &lt;= 1337 and y &gt;= 96 and y &lt;= 152{
     move_contact_solid(270,12);
     vspeed=0;
 }else if y &lt;=80{

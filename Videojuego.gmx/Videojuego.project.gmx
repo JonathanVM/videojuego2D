@@ -7,7 +7,8 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="personaje">
-      <sprite>sprites\spr_player_ship</sprite>
+      <sprite>sprites\spr_player_ship_right</sprite>
+      <sprite>sprites\spr_player_ship_left</sprite>
       <sprite>sprites\spr_player_walk_right</sprite>
       <sprite>sprites\spr_player_walk_left</sprite>
       <sprite>sprites\spr_player_jump_right</sprite>
@@ -87,8 +88,8 @@
     <object>objects\obj_reset</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
     <room>rooms\room1</room>
+    <room>rooms\room0</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

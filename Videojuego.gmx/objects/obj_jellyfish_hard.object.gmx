@@ -32,10 +32,10 @@
     alarm[0] = 90;
 }else if x == 384 {
     path_start(path_jellyfish,3,1,false);
-    alarm[1] = 90;
+    alarm[1] = 60;
 }else if x == 2432 or x == 3488 {
     path_start(path_jellyfish,3,1,false);
-    alarm[2] = 90;
+    alarm[2] = 60;
 }else{
     path_start(path_jellyfish,3,1,false);
 }
@@ -340,7 +340,7 @@ if obj_player_ship.x  &lt; x {
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>90</string>
+            <string>150</string>
           </argument>
           <argument>
             <kind>4</kind>

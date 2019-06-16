@@ -298,7 +298,7 @@
     <instance objName="obj_wall" x="3840" y="512" name="inst_8909FA6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="3872" y="512" name="inst_F81A6CF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="3856" y="384" name="inst_F1AB74AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ob_flag" x="3973" y="368" name="inst_02DF0A90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_flag" x="3973" y="368" name="inst_02DF0A90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="688" y="688" name="inst_5403FFF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="656" y="688" name="inst_BE8AD52C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_chain_anchor" x="640" y="256" name="inst_8252E436" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

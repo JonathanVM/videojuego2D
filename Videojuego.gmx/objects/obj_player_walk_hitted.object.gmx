@@ -337,18 +337,18 @@
           <argument>
             <kind>1</kind>
             <string>if place_free(x, y+1){
-    if sprite_index == spr_player_jump_hitted_right
+    if sprite_index ==spr_player_walk_hitted_right
         sprite_index = spr_player_jump_hitted_right;
     
     if sprite_index == spr_player_walk_hitted_left
-        sprite_index = spr_player_walk_hitted_left;
+        sprite_index = spr_player_jump_hitted_left;
 } 
 else {
     if sprite_index == spr_player_jump_hitted_right
-        sprite_index = spr_player_jump_hitted_right;
+        sprite_index = spr_player_walk_hitted_right;
 
     if sprite_index == spr_player_jump_hitted_left
-        sprite_index = spr_player_jump_hitted_left;
+        sprite_index = spr_player_walk_hitted_left;
     
 }
 </string>

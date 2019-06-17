@@ -4,7 +4,7 @@
   <width>4000</width>
   <height>700</height>
   <vsnap>16</vsnap>
-  <hsnap>1</hsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -304,12 +304,12 @@
     <instance objName="obj_coin" x="200" y="568" name="inst_267123F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coin" x="600" y="248" name="inst_FC5E9A1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coin" x="664" y="248" name="inst_0A495103" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="3744" y="448" name="inst_6EFDE4A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="3728" y="448" name="inst_6EFDE4A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="3728" y="576" name="inst_0C38C8AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="3760" y="576" name="inst_C223820B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="3840" y="512" name="inst_8909FA6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="3872" y="512" name="inst_F81A6CF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="3856" y="384" name="inst_F1AB74AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="3840" y="384" name="inst_F1AB74AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_flag" x="3968" y="385" name="inst_02DF0A90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coral" x="19" y="650" name="inst_77447ED3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coral" x="59" y="650" name="inst_8FBE626C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -450,8 +450,8 @@
     <instance objName="obj_base_boat" x="1248" y="584" name="inst_E7A26578" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_base_boat" x="1312" y="536" name="inst_2EFE961C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_base_boat" x="1392" y="472" name="inst_AA9BE5E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_chain_anchor" x="3744" y="448" name="inst_5510A923" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_chain_anchor" x="3856" y="384" name="inst_986CACA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_chain_anchor" x="3728" y="448" name="inst_5510A923" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_chain_anchor" x="3840" y="384" name="inst_986CACA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="3824" y="688" name="inst_FBB740F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="3856" y="688" name="inst_833F0197" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="3888" y="688" name="inst_E5336FEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -460,7 +460,6 @@
     <instance objName="obj_sea_lose" x="3984" y="688" name="inst_C8776A0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="3792" y="688" name="inst_309C5675" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_jellyfish" x="192" y="630" name="inst_8C6E4956" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player_walk" x="32" y="625" name="inst_D036D6B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_score" x="64" y="474" name="inst_3F0709EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="1456" y="688" name="inst_EB0830C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="1424" y="688" name="inst_FAD22F6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -496,8 +495,9 @@
     <instance objName="obj_base_chain" x="3344" y="270" name="inst_1BD5C221" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_base_chain" x="2352" y="512" name="inst_DB167726" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_base_chain" x="2832" y="366" name="inst_008D5936" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_base_chain" x="3744" y="448" name="inst_DF2022D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_base_chain" x="3856" y="384" name="inst_16B5EA3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_base_chain" x="3728" y="448" name="inst_DF2022D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_base_chain" x="3840" y="384" name="inst_16B5EA3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player_walk" x="48" y="624" name="inst_D036D6B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

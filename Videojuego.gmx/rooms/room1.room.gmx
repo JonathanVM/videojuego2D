@@ -3,8 +3,8 @@
   <caption></caption>
   <width>4000</width>
   <height>700</height>
-  <vsnap>1</vsnap>
-  <hsnap>1</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -256,7 +256,7 @@
     <instance objName="obj_seaweed" x="624" y="448" name="inst_CEBA92A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_seaweed" x="656" y="448" name="inst_67C72100" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_seaweed" x="688" y="448" name="inst_7712FE20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_seaweed" x="720" y="448" name="inst_8586C39F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_seaweed" x="719" y="449" name="inst_8586C39F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_seaweed" x="816" y="448" name="inst_9C826773" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_seaweed" x="848" y="448" name="inst_CD8A67DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_seaweed" x="880" y="448" name="inst_A038FC86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1252,7 +1252,6 @@
     <instance objName="obj_piranha" x="3946" y="218" name="inst_03C2851B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piranha" x="3980" y="238" name="inst_E9DC41EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_jellyfish_hard" x="2848" y="96" name="inst_A9B890EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player_ship" x="96" y="624" name="inst_92400901" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fish" x="790" y="157" name="inst_868EAE90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fish" x="792" y="183" name="inst_A54AE733" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fish" x="825" y="180" name="inst_872D8E4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1278,6 +1277,7 @@
     <instance objName="obj_base_chain" x="2864" y="288" name="inst_41D0AFC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_base_chain" x="3264" y="544" name="inst_5BEA816B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_base_chain" x="3888" y="128" name="inst_DA9D448D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player_ship" x="112" y="624" name="inst_92400901" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

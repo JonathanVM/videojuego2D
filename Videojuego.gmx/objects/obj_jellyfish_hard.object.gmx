@@ -170,12 +170,12 @@ var instArriba3;
 var instAbajo1;
 var instAbajo2;
 var instAbajo3;
-instArriba1 = instance_create(x-14,y+2,obj_jellyfish_bullet);
+instArriba1 = instance_create(x-20,y+2,obj_jellyfish_bullet);
 instArriba2 = instance_create(x,y+2,obj_jellyfish_bullet);
-instArriba3 = instance_create(x+14,y+2,obj_jellyfish_bullet);
-instAbajo1 = instance_create(x-14,y+2,obj_jellyfish_bullet);
+instArriba3 = instance_create(x+20,y+2,obj_jellyfish_bullet);
+instAbajo1 = instance_create(x-20,y+2,obj_jellyfish_bullet);
 instAbajo2 = instance_create(x,y+2,obj_jellyfish_bullet);
-instAbajo3 = instance_create(x+14,y+2,obj_jellyfish_bullet);
+instAbajo3 = instance_create(x+20,y+2,obj_jellyfish_bullet);
 
     with(instArriba1){
         hspeed = 5;

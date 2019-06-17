@@ -319,7 +319,7 @@
         <exetype>1</exetype>
         <functionname>action_sprite_set</functionname>
         <codestring></codestring>
-        <whoName>obj_score</whoName>
+        <whoName>obj_reset</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -329,11 +329,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>view_xview[0]+view_wview[0]/2</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>view_yview[0]+view_hview[0]/2</string>
           </argument>
         </arguments>
       </action>
@@ -637,7 +637,7 @@
         <exetype>1</exetype>
         <functionname>action_sprite_set</functionname>
         <codestring></codestring>
-        <whoName>obj_score</whoName>
+        <whoName>obj_reset</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>

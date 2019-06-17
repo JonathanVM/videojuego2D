@@ -1169,7 +1169,6 @@
     <instance objName="obj_grass" x="143" y="649" name="inst_304CA431" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="175" y="649" name="inst_AEF0EB1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="207" y="649" name="inst_8115DB5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_flag" x="143" y="640" name="inst_72D68FFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="1568" y="688" name="inst_2DD6137B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="1600" y="688" name="inst_7F86DA91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_lose" x="1632" y="688" name="inst_274C545A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

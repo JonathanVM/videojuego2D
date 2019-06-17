@@ -437,7 +437,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_player_ship</object>
+            <object>obj_player_ship_hitted</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -479,7 +479,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_player_walk</object>
+            <object>obj_player_walk_hitted</object>
           </argument>
           <argument>
             <kind>0</kind>

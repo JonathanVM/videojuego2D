@@ -68,7 +68,7 @@
       <object>objects\obj_player_ship</object>
       <object>objects\obj_player_ship_hitted</object>
       <object>objects\obj_player_walk</object>
-      <object>objects\obl_player_walk_hitted</object>
+      <object>objects\obj_player_walk_hitted</object>
     </objects>
     <objects name="enemies">
       <object>objects\obj_seaweed</object>

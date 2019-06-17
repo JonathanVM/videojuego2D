@@ -6,7 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="personaje">
+    <sprites name="player">
       <sprite>sprites\spr_player_ship_right</sprite>
       <sprite>sprites\spr_player_ship_left</sprite>
       <sprite>sprites\spr_player_walk_right</sprite>
@@ -15,7 +15,15 @@
       <sprite>sprites\spr_player_jump_left</sprite>
       <sprite>sprites\spr_life</sprite>
     </sprites>
-    <sprites name="componentes">
+    <sprites name="player_hitted">
+      <sprite>sprites\spr_player_ship_hitted_right</sprite>
+      <sprite>sprites\spr_player_ship_hitted_left</sprite>
+      <sprite>sprites\spr_player_walk_hitted_right</sprite>
+      <sprite>sprites\spr_player_walk_hitted_left</sprite>
+      <sprite>sprites\spr_player_jump_hitted_right</sprite>
+      <sprite>sprites\spr_player_jump_hitted_left</sprite>
+    </sprites>
+    <sprites name="components">
       <sprite>sprites\spr_floor</sprite>
       <sprite>sprites\spr_wall</sprite>
       <sprite>sprites\spr_sea_lose</sprite>
@@ -44,7 +52,6 @@
       <sprite>sprites\spr_seaweed</sprite>
       <sprite>sprites\spr_jellyfish_hard</sprite>
     </sprites>
-    <sprite>sprites\mascara</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -57,9 +64,12 @@
     <shader type="GLSLES">shaders\shader0.shader</shader>
   </shaders>
   <objects name="objects">
-    <object>objects\obj_player_ship</object>
-    <object>objects\obj_player_walk</object>
-    <object>objects\obj_coin</object>
+    <objects name="player">
+      <object>objects\obj_player_ship</object>
+      <object>objects\obj_player_ship_hitted</object>
+      <object>objects\obj_player_walk</object>
+      <object>objects\obl_player_walk_hitted</object>
+    </objects>
     <objects name="enemies">
       <object>objects\obj_seaweed</object>
       <object>objects\obj_jellyfish_bullet</object>
@@ -84,7 +94,7 @@
       <object>objects\obj_coral</object>
       <object>objects\obj_fish</object>
       <object>objects\obj_label_lavel</object>
-      <object>objects\obj_wall_roof</object>
+      <object>objects\obj_coin</object>
     </objects>
     <object>objects\obj_score</object>
     <object>objects\obj_reset</object>

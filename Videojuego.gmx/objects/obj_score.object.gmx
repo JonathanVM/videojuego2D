@@ -319,7 +319,7 @@
         <exetype>1</exetype>
         <functionname>action_sprite_set</functionname>
         <codestring></codestring>
-        <whoName>obj_reset</whoName>
+        <whoName>obj_score</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -637,7 +637,7 @@
         <exetype>1</exetype>
         <functionname>action_sprite_set</functionname>
         <codestring></codestring>
-        <whoName>obj_reset</whoName>
+        <whoName>obj_score</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>

@@ -31,26 +31,6 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>701</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_score</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>611</id>
         <kind>6</kind>
         <userelative>-1</userelative>
@@ -287,30 +267,6 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.drawlevel</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>false</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>541</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -329,11 +285,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_xview[0]+view_wview[0]/2</string>
+            <string>global.level-1</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_yview[0]+view_hview[0]/2</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -441,11 +397,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>global.inicialx</string>
+            <string>96</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>global.inicialy</string>
+            <string>628</string>
           </argument>
         </arguments>
       </action>
@@ -483,11 +439,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>global.inicialx</string>
+            <string>32</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>global.inicialy</string>
+            <string>624</string>
           </argument>
         </arguments>
       </action>

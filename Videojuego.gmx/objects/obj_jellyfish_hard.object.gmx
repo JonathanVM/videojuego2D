@@ -28,16 +28,28 @@
             <string>if x &gt;= 1312 and x &lt;= 1504 {
     direction = choose(0,180);
     hspeed = 3;
-}else if x == 576 {
+}else if x == 576{
     alarm[0] = 90;
 }else if x == 384 {
     path_start(path_jellyfish,3,1,false);
     alarm[1] = 60;
-}else if x == 2432 or x == 3488 {
-    path_start(path_jellyfish,3,1,false);
-    alarm[2] = 60;
+}else if (x &gt;= 2528 and x &lt;= 2544) {
+    direction = choose(0,270);
+    vspeed = 4;
+    alarm[3] = 90;
+}else if x &gt;= 2640 and x&lt;= 2656 {
+    direction = choose(0,270);
+    vspeed = 4;
+    alarm[4] = 90;
+}else if x == 3152 or x == 3808{
+    alarm[1] = 60;
+}else if x &gt;= 2832 and x &lt;= 2848 {
+    direction = choose(0,180);
+    hspeed = 3;
+}else if x &gt;= 3712 and x&lt;= 3728 {
+    path_start(path_jellyfish3,3,1,false);
 }else{
-    path_start(path_jellyfish,3,1,false);
+    path_start(path_jellyfish2,3,1,false);
 }
 </string>
           </argument>
@@ -68,6 +80,301 @@
           <argument>
             <kind>0</kind>
             <string>0.5</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Disparo jellyfish arriba y abajo</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>404</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_number</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>10</kind>
+            <object>obj_player_ship</object>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>var instArriba1;
+var instArriba2;
+var instArriba3;
+
+var instAbajo1;
+var instAbajo2;
+var instAbajo3;
+instArriba1 = instance_create(x-14,y+2,obj_jellyfish_bullet);
+instArriba2 = instance_create(x,y+2,obj_jellyfish_bullet);
+instArriba3 = instance_create(x+14,y+2,obj_jellyfish_bullet);
+instAbajo1 = instance_create(x-14,y+2,obj_jellyfish_bullet);
+instAbajo2 = instance_create(x,y+2,obj_jellyfish_bullet);
+instAbajo3 = instance_create(x+14,y+2,obj_jellyfish_bullet);
+
+    with(instArriba1){
+        hspeed = 5;
+        direction = 90;
+    }
+    with(instArriba2){
+        hspeed = 5;
+        direction = 90;
+    }
+    with(instArriba3){
+        hspeed = 5;
+        direction = 90;
+    }
+    with(instAbajo1){
+        hspeed = 5;
+        direction = 270;
+    }
+     with(instAbajo2){
+        hspeed = 5;
+        direction = 270;
+    }
+     with(instAbajo3){
+        hspeed = 5;
+        direction = 270;
+    }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>301</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_alarm</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>90</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>4</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Disparo jellyfish arriba y abajo</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>404</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_number</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>10</kind>
+            <object>obj_player_ship</object>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>var instArriba;
+var instAbajo;
+instArriba = instance_create(x,y+2,obj_jellyfish_bullet);
+instAbajo = instance_create(x,y+2,obj_jellyfish_bullet);
+
+    with(instArriba){
+        hspeed = 5;
+        direction = 90;
+    }
+    with(instAbajo){
+        hspeed = 5;
+        direction = 270;
+    }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>301</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_alarm</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>90</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>3</string>
           </argument>
         </arguments>
       </action>
@@ -533,7 +840,23 @@ if obj_player_ship.x  &lt; x {
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_floor">
+    <event eventtype="4" ename="obj_wall_roof">
+      <action>
+        <libid>1</libid>
+        <id>114</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_reverse_ydir</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
         <id>113</id>
@@ -543,6 +866,22 @@ if obj_player_ship.x  &lt; x {
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
         <functionname>action_reverse_xdir</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_floor">
+      <action>
+        <libid>1</libid>
+        <id>114</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_reverse_ydir</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>

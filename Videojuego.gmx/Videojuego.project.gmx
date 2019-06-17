@@ -37,20 +37,23 @@
       <sprite>sprites\spr_fish</sprite>
       <sprite>sprites\spr_grass</sprite>
       <sprite>sprites\spr_coral</sprite>
-      <sprite>sprites\spr_piranha</sprite>
       <sprite>sprites\spr_victory</sprite>
       <sprite>sprites\spr_label_level</sprite>
       <sprite>sprites\spr_gameover</sprite>
+      <sprite>sprites\spr_fish_right</sprite>
     </sprites>
     <sprites name="enemies">
       <sprite>sprites\spr_chain_anchor</sprite>
       <sprite>sprites\spr_jellyfish</sprite>
       <sprite>sprites\spr_jellyfish_bullet</sprite>
       <sprite>sprites\spr_anchor_chain_anchor</sprite>
-      <sprite>sprites\spr_shark</sprite>
+      <sprite>sprites\spr_shark_left</sprite>
       <sprite>sprites\spr_base_chain</sprite>
       <sprite>sprites\spr_seaweed</sprite>
       <sprite>sprites\spr_jellyfish_hard</sprite>
+      <sprite>sprites\spr_shark_right</sprite>
+      <sprite>sprites\spr_piranha_izq</sprite>
+      <sprite>sprites\spr_piranha_der</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -59,6 +62,8 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\path_jellyfish</path>
+    <path>paths\path_jellyfish2</path>
+    <path>paths\path_jellyfish3</path>
   </paths>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>

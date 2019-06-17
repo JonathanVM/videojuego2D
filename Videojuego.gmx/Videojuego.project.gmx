@@ -31,7 +31,6 @@
       <sprite>sprites\spr_sea_lose</sprite>
       <sprite>sprites\spr_coin</sprite>
       <sprite>sprites\spr_invisible_wall</sprite>
-      <sprite>sprites\sprite15</sprite>
       <sprite>sprites\spr_sail_boat</sprite>
       <sprite>sprites\spr_base_boat</sprite>
       <sprite>sprites\spr_flag</sprite>

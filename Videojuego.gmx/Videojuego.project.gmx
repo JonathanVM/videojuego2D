@@ -84,6 +84,7 @@
     <objects name="components">
       <object>objects\obj_floor</object>
       <object>objects\obj_wall</object>
+      <object>objects\obj_wall_roof</object>
       <object>objects\obj_sea_lose</object>
       <object>objects\obj_base_boat</object>
       <object>objects\obj_sail_boat</object>
@@ -95,7 +96,6 @@
       <object>objects\obj_fish</object>
       <object>objects\obj_label_lavel</object>
       <object>objects\obj_coin</object>
-      <object>objects\obj_wall_roof</object>
     </objects>
     <object>objects\obj_score</object>
     <object>objects\obj_reset</object>
